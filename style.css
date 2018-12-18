@@ -1,0 +1,46 @@
+body{
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+.space{
+    margin: auto;
+    background: url("space.gif") 0 0 repeat-y;
+    height: 5000px;
+    width: 360px;
+}
+
+.alien{
+    position: fixed;
+    background: url("alien.png") -145px 0 no-repeat;
+    height: 48px;
+    width: 44.30769230769231px;
+    top: 50px;
+    left: 930px;
+
+}
+
+.message{
+    position: fixed;
+    margin: auto;
+    /* border: 3px solid darkseagreen; */
+    top: 100px;
+    left: 769px;
+    height: 100px;
+    width: 360px;
+    z-index: 1;
+    color: aquamarine;
+    text-align: center;
+    font-size: 75px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@keyframes dance{
+    0%{
+        background-position-x: -145px 0;
+    }
+    100%{
+        background-position-x: -241px;
+    }
+}
